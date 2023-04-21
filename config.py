@@ -11,7 +11,7 @@ class Config:
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     SESSION = os.environ.get("SESSION", "BQCcVKrUXOUoFwF-0ZiBRPNlslEFFDPkZ8COLTJ9fe2ffvahC46DXRNdqS9ghgh1uFJxtN1j3fLgkYeXvwZ-htr233DfgDrA7y94eoyeQu321PgQ87xoGSH-Jd3TWYjox11hDgYQ5vneVZYEW4s3VJeJulWNFtfhU-whP5u1hRtE_o-f8jhLwkVef8hYdC3P0tleyZuIfmQroAuz2hdgjdsB6AlzG5zP6va3f6dDo2D3LZkljgvlIcqnzyXwm89JuB-wcBwTusX_OzPI5bkU8bNYQ52taidaptfYFFM4b1kMhTP1iru0q6arbwY1znGT8phxdc15bq0axxlsPLJi0koKAAAAATK48jYA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001887724395"))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", "Auto_forword_dd_bot")
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", "Link_auto_filter_bot")
 
 
 def LOGGER(name: str) -> logging.Logger:
